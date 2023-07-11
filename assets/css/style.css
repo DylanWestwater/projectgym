@@ -4,8 +4,10 @@
      padding: 0;
      margin: 0;
      border: none;
-    background-color: rgb(180, 180, 180);
+     background-color: rgb(180, 180, 180);
  }
+
+ /* Title */
 
  header {
      font-family: 'Ysabeau SC', sans-serif;
@@ -16,29 +18,40 @@
      font-family: 'Source Serif 4', serif;
  }
 
+ /* Description and intoduction */
+
  #left {
-    width: 33%;
-    font-size: large;
-    float: left;
+     width: 25%;
+     font-size: large;
+     float: left;
  }
 
-#description {
-    margin-left: 25px;
-    width: 400px
-}
-
-  #right {
-    width: 33%;
-    float: right;
-  }
-
- #centre{
-    width: 33%;
-    margin: 0 auto;
+ #description {
+     margin-top: 50px;
+     margin-left: 25px;
+     width: 400px
  }
 
+ /* Sign up for newsletter */
 
+ #right {
+     width: 25%;
+     float: right;
+     margin-top: -22px;
+     background-color: red;
+ }
 
- footer{
-    margin-top: 500px;
+ /* List of muscle groups to target */
+
+ #centre {
+     width: 50%;
+     margin: 0 auto;
+     margin-top: 50px;
+     background-color: green;
+ }
+
+ /* links to social  media */
+
+ footer {
+     margin-top: 500px;
  }
