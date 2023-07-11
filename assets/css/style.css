@@ -41,13 +41,29 @@
      background-color: red;
  }
 
- /* List of muscle groups to target */
+ /* List of muscle groups targeted */
 
  #centre {
      width: 50%;
      margin: 0 auto;
      margin-top: 50px;
      background-color: green;
+ }
+
+ #muscle-groups {
+    list-style-type: none;
+    font-family: 'Ysabeau SC', sans-serif ;
+    font-size: 40px;
+ }
+
+ #muscle-groups ul {
+    float: right;
+ }
+ #muscle-groups a {
+    text-decoration: none;
+    float: left;
+    margin-right: 100px;
+    color: inherit;
  }
 
  /* links to social  media */
