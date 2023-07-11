@@ -16,16 +16,17 @@
      color: inherit;
      font-family: 'Ysabeau SC', sans-serif;
      font-size: 150px;
+     background-color: rgb(180, 180, 180);
  }
 
  /* Description and intoduction */
 
  #left {
      width: 20%;
-     height: 1000px;
+     height: 500px;
      font-size: large;
      float: left;
-     background-color: gray;
+     background-color: rgb(180, 180, 180);
  }
 
  #description {
@@ -40,36 +41,44 @@
      font-size: 40px;
  }
 
- /* Sign up for newsletter 
+ /* Sign up for newsletter  */
 
- #right {
+ #newsletter {
      width: 20%;
-     float: right;
      background-color: red;
  }
 
- */
+
+
+ #link a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 50px;
+ }
 
  #chest {
      text-align: center;
      display: inline-block;
      margin-top: 70px;
-     height: 300px;
-     width: 20%;
+     height: 400px;
+     width: 600px;
      padding-right: 10px;
-     background: url(../images/chest.jpg) no-repeat center center;
+     background: url(../images/chest-schematic.jpg) no-repeat center;
      overflow: hidden;
      background-size: cover;
  }
+
+
 
 #shoulders {
     text-align: center;
     display: inline-block;
     margin-top: 70px;
-    height: 300px;
-    width: 20%;
+    height: 400px;
+    width: 600px;
     padding-right: 10px;
-    background: url(../images/chest-schematic.jpg) no-repeat center center;
+    background: url(../images/shoulder-schematic.jpg) no-repeat center center;
     overflow: hidden;
     background-size: cover;
 }
@@ -78,10 +87,10 @@
     text-align: center;
     display: inline-block;
     margin-top: 70px;
-    height: 300px;
-    width: 20%;
+    height: 400px;
+    width: 600px;
     padding-right: 10px;
-    background: url(../images/chest-schematic.jpg) no-repeat center center;
+    background: url(../images/arms-schematic.jpg) no-repeat center center;
     overflow: hidden;
     background-size: cover;
 }
@@ -90,10 +99,10 @@
     text-align: center;
     display: inline-block;
     margin-top: 70px;
-    height: 300px;
-    width: 20%;
+    height: 400px;
+    width: 600px;
     padding-right: 10px;
-    background: url(../images/chest-schematic.jpg) no-repeat center center;
+    background: url(../images/abs-schematic.jpg) no-repeat center center;
     overflow: hidden;
     background-size: cover;
 }
@@ -102,10 +111,10 @@
     text-align: center;
     display: inline-block;
     margin-top: 70px;
-    height: 300px;
-    width: 20%;
+    height: 400px;
+    width: 600px;
     padding-right: 10px;
-    background: url(../images/chest-schematic.jpg) no-repeat center center;
+    background: url(../images/back-schematic.jpg) no-repeat center center;
     overflow: hidden;
     background-size: cover;
 }
@@ -114,10 +123,10 @@
     text-align: center;
     display: inline-block;
     margin-top: 70px;
-    height: 300px;
-    width: 20%;
+    height: 400px;
+    width: 600px;
     padding-right: 10px;
-    background: url(../images/chest-schematic.jpg) no-repeat center center;
+    background: url(../images/legs-schematic.jpg) no-repeat center center;
     overflow: hidden;
     background-size: cover;
 }
