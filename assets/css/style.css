@@ -46,10 +46,26 @@
 
  /* Sign up for newsletter  */
 
+ #sign-up {
+list-style-type: none;
+margin-left: 20px;
+ }
+
+ #join-button {
+    margin-top: 20px;
+    margin-left: 20px;
+        border-radius: 2px;
+        padding: 15px 30px 15px 30px;
+        text-align: center;
+        font-size: 25px;
+        background-color: gray;
+        font-family: 'Ysabeau SC', sans-serif;
+ }
+
  #newsletter {
-    margin-top: 80px;
-    margin-left: 25px;
-     width: 400px;
+    margin-top: 50px;
+    margin-left: 80px;
+     width: 300px;
      text-align: center;
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 25px;
@@ -137,6 +153,7 @@
     overflow: hidden;
     background-size: cover;
 }
+
 
  footer {
      margin-bottom: 0;
