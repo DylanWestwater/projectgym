@@ -161,6 +161,10 @@
     font-family: 'Source Serif 4', serif;
 }
 
+.chest-exercises p {
+    font-family: 'Source Serif 4', serif;
+}
+
 #benchpress {
     font-size: 15px;
     display: inline-block;
@@ -204,10 +208,14 @@
     font-family: 'Source Serif 4', serif;
 }
 
+.shoulder-exercises p {
+    font-family: 'Source Serif 4', serif;
+}
+
 #overhead-press {
     font-size: 15px;
     display: inline-block;
-    height: 423px;
+    height: 413px;
     width: 750px;
     padding-right: 10px;
 
@@ -217,7 +225,7 @@
 #lat-raise {
     font-size: 15px;
     display: inline-block;
-    height: 423px;
+    height: 413px;
     width: 750px;
     padding-right: 10px;
 
@@ -226,11 +234,198 @@
 #reverse-fly {
     font-size: 15px;
     display: inline-block;
-    height: 423px;
+    height: 413px;
     width: 750px;
     padding-right: 10px;
 }
 
+/*  arms.html specific code  */
+
+/* arm exercises */
+
+.arm-exercises {
+    text-align: center;
+    font-family: 'Ysabeau SC',
+        sans-serif;
+    font-size: 30px;
+}
+
+
+.arm-exercises h3 {
+    font-family: 'Source Serif 4', serif;
+}
+
+.arm-exercises p {
+    font-family: 'Source Serif 4', serif;
+}
+
+#bicep-curl {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+
+
+}
+
+#tri-pulldown {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+
+}
+
+#skullcrusher {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+}
+
+/*  core.html specific code  */
+
+/* core exercises */
+
+.core-exercises {
+    text-align: center;
+    font-family: 'Ysabeau SC',
+        sans-serif;
+    font-size: 30px;
+}
+
+
+.core-exercises h3 {
+    font-family: 'Source Serif 4', serif;
+}
+
+.core-exercises p {
+    font-family: 'Source Serif 4', serif;
+}
+
+#sit-up {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+
+
+}
+
+#crunches {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+
+}
+
+#rus-twist {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+}
+
+/*  back.html specific code  */
+
+/* back exercises */
+
+.back-exercises {
+    text-align: center;
+    font-family: 'Ysabeau SC',
+        sans-serif;
+    font-size: 30px;
+}
+
+
+.back-exercises h3 {
+    font-family: 'Source Serif 4', serif;
+}
+
+.back-exercises p {
+    font-family: 'Source Serif 4', serif;
+}
+
+#pull-up {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+
+
+}
+
+#rows {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+
+}
+
+#lat-pulldown {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+}
+
+/*  legs.html specific code  */
+
+/* leg exercises */
+
+.leg-exercises {
+    text-align: center;
+    font-family: 'Ysabeau SC',
+        sans-serif;
+    font-size: 30px;
+}
+
+
+.leg-exercises h3 {
+    font-family: 'Source Serif 4', serif;
+}
+
+.leg-exercises p {
+    font-family: 'Source Serif 4', serif;
+}
+
+#squat {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+
+
+}
+
+#lunge {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+
+}
+
+#calf-raise {
+    font-size: 15px;
+    display: inline-block;
+    height: 413px;
+    width: 750px;
+    padding-right: 10px;
+}
  /* footer */
 
  footer {
