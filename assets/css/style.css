@@ -11,9 +11,10 @@
  }
 
  header {
-    background-color: gray;
-    width: 100%;
+     background-color: gray;
+     width: 100%;
  }
+
  /* Title */
  header a {
      text-decoration: none;
@@ -47,118 +48,117 @@
  /* Sign up for newsletter  */
 
  #sign-up {
-list-style-type: none;
-margin-left: 20px;
+     list-style-type: none;
+     margin-left: 20px;
  }
 
  #join-button {
-    margin-top: 20px;
-    margin-left: 20px;
-        border-radius: 2px;
-        padding: 15px 30px 15px 30px;
-        text-align: center;
-        font-size: 25px;
-        background-color: gray;
-        font-family: 'Ysabeau SC', sans-serif;
+     margin-top: 20px;
+     margin-left: 20px;
+     border-radius: 2px;
+     padding: 15px 30px 15px 30px;
+     text-align: center;
+     font-size: 25px;
+     background-color: gray;
+     font-family: 'Ysabeau SC', sans-serif;
  }
 
  #newsletter {
-    margin-top: 50px;
-    margin-left: 80px;
+     margin-top: 50px;
+     margin-left: 80px;
      width: 300px;
      text-align: center;
-    font-family: 'Ysabeau SC', sans-serif;
-    font-size: 25px;
+     font-family: 'Ysabeau SC', sans-serif;
+     font-size: 25px;
  }
 
-
+/* Muscle groups */
 
  #link a {
-    text-decoration: none;
-    color: inherit;
-    font-family: 'Ysabeau SC', sans-serif;
-    font-size: 50px;
+     text-decoration: none;
+     color: inherit;
+     font-family: 'Ysabeau SC', sans-serif;
+     font-size: 50px;
  }
 
  #chest {
      text-align: center;
      display: inline-block;
-     margin-top: 30px;
-     height: 400px;
+     height: 450px;
      width: 600px;
      padding-right: 10px;
-     background: url(../images/chest-schematic.jpg) no-repeat center;
      overflow: hidden;
      background-size: cover;
  }
 
 
 
-#shoulders {
-    text-align: center;
-    display: inline-block;
-    margin-top: 30px;
-    height: 400px;
-    width: 600px;
-    padding-right: 10px;
-    background: url(../images/shoulder-schematic.jpg) no-repeat center center;
-    overflow: hidden;
-    background-size: cover;
-}
+ #shoulders {
+     text-align: center;
+     display: inline-block;
+     height: 450px;
+     width: 600px;
+     padding-right: 10px;
+     overflow: hidden;
+     background-size: cover;
+ }
 
-#arms {
-    text-align: center;
-    display: inline-block;
-    margin-top: 30px;
-    height: 400px;
-    width: 600px;
-    padding-right: 10px;
-    background: url(../images/arms-schematic.jpg) no-repeat center center;
-    overflow: hidden;
-    background-size: cover;
-}
+ #arms {
+     text-align: center;
+     display: inline-block;
+     height: 450px;
+     width: 600px;
+     padding-right: 10px;
+     overflow: hidden;
+     background-size: cover;
+ }
 
-#core {
-    text-align: center;
-    display: inline-block;
-    margin-top: 70px;
-    height: 400px;
-    width: 600px;
-    padding-right: 10px;
-    background: url(../images/abs-schematic.jpg) no-repeat center center;
-    overflow: hidden;
-    background-size: cover;
-}
+ #core {
+     text-align: center;
+     display: inline-block;
+     height: 450px;
+     width: 600px;
+     padding-right: 10px;
+     overflow: hidden;
+     background-size: cover;
+ }
 
-#back {
-    text-align: center;
-    display: inline-block;
-    margin-top: 70px;
-    height: 400px;
-    width: 600px;
-    padding-right: 10px;
-    background: url(../images/back-schematic.jpg) no-repeat center center;
-    overflow: hidden;
-    background-size: cover;
-}
+ #back {
+     text-align: center;
+     display: inline-block;
+     height: 450px;
+     width: 600px;
+     padding-right: 10px;
+     overflow: hidden;
+     background-size: cover;
+ }
 
-#legs {
-    text-align: center;
-    display: inline-block;
-    margin-top: 70px;
-    height: 400px;
-    width: 600px;
-    padding-right: 10px;
-    background: url(../images/legs-schematic.jpg) no-repeat center center;
-    overflow: hidden;
-    background-size: cover;
-}
+ #legs {
+     text-align: center;
+     display: inline-block;
+     height: 450px;
+     width: 600px;
+     padding-right: 10px;
+     overflow: hidden;
+     background-size: cover;
+ }
 
+/* footer */
 
  footer {
-     margin-bottom: 0;
-     width: 100%;
-     height: 80px;
+     
+     height: 200px;
      background-color: gray;
+     font-size: 25px;
+     font-family: 'Ysabeau SC', sans-serif;
      text-align: center;
+ }
+
+ #social-media > li{
+    display: inline;
+ }
+
+ .icons{ 
+    font-size: 200%;
+    margin: 1%;
  }
