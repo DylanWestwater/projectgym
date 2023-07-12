@@ -27,7 +27,7 @@
 
  #left {
      width: 20%;
-     height: 910px;
+     height: 908px;
      font-size: 20px;
      float: left;
      background-color: rgb(180, 180, 180);
@@ -72,7 +72,9 @@
      font-size: 25px;
  }
 
-/* Muscle groups */
+/*  index.html specific code  */
+
+ /* Muscle groups */
 
  #link a {
      text-decoration: none;
@@ -143,10 +145,97 @@
      background-size: cover;
  }
 
-/* footer */
+/*  chest.html specific code  */
+
+/* chest exercises */
+
+.chest-exercises {
+    text-align: center;
+    font-family: 'Ysabeau SC',
+        sans-serif;
+    font-size: 30px;
+}
+
+
+.chest-exercises h3 {
+    font-family: 'Source Serif 4', serif;
+}
+
+#benchpress {
+    font-size: 15px;
+    display: inline-block;
+    height: 423px;
+    width: 750px;
+    padding-right: 10px;
+
+
+}
+
+#pec-fly {
+    font-size: 15px;
+    display: inline-block;
+    height: 423px;
+    width: 750px;
+    padding-right: 10px;
+
+}
+
+#inc-press {
+    font-size: 15px;
+    display: inline-block;
+    height: 423px;
+    width: 750px;
+    padding-right: 10px;
+}
+
+/*  shoulder.html specific code  */
+
+/* shoulder exercises */
+
+.shoulder-exercises {
+    text-align: center;
+    font-family: 'Ysabeau SC',
+        sans-serif;
+    font-size: 30px;
+}
+
+
+.shoulder-exercises h3 {
+    font-family: 'Source Serif 4', serif;
+}
+
+#overhead-press {
+    font-size: 15px;
+    display: inline-block;
+    height: 423px;
+    width: 750px;
+    padding-right: 10px;
+
+
+}
+
+#lat-raise {
+    font-size: 15px;
+    display: inline-block;
+    height: 423px;
+    width: 750px;
+    padding-right: 10px;
+
+}
+
+#reverse-fly {
+    font-size: 15px;
+    display: inline-block;
+    height: 423px;
+    width: 750px;
+    padding-right: 10px;
+}
+
+ /* footer */
 
  footer {
-     
+    position: absolute;
+     width: 100%;
      height: 200px;
      background-color: gray;
      font-size: 25px;
@@ -154,11 +243,11 @@
      text-align: center;
  }
 
- #social-media > li{
-    display: inline;
+ #social-media>li {
+     display: inline;
  }
 
- .icons{ 
-    font-size: 200%;
-    margin: 1%;
+ .icons {
+     font-size: 200%;
+     margin: 2%;
  }
