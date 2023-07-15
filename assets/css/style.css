@@ -534,4 +534,12 @@
      #newsletter {
          margin-top: 350px;
      }
+
+    header a {
+              font-size: 50px;
+    }
+
+        #description h2{
+            font-size: 20px;
+        }
  }
