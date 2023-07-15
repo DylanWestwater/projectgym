@@ -93,8 +93,6 @@
      overflow: hidden;
  }
 
-
-
  #shoulders {
      text-align: center;
      display: inline-block;
@@ -151,7 +149,6 @@
      font-size: 30px;
  }
 
-
  .chest-exercises h3 {
      font-family: 'Source Serif 4', serif;
  }
@@ -166,8 +163,6 @@
      height: 423px;
      width: 750px;
      padding-right: 10px;
-
-
  }
 
  #pec-fly {
@@ -176,7 +171,6 @@
      height: 423px;
      width: 750px;
      padding-right: 10px;
-
  }
 
  #inc-press {
@@ -198,7 +192,6 @@
      font-size: 30px;
  }
 
-
  .shoulder-exercises h3 {
      font-family: 'Source Serif 4', serif;
  }
@@ -213,8 +206,6 @@
      height: 413px;
      width: 750px;
      padding-right: 10px;
-
-
  }
 
  #lat-raise {
@@ -223,7 +214,6 @@
      height: 413px;
      width: 750px;
      padding-right: 10px;
-
  }
 
  #reverse-fly {
@@ -260,8 +250,6 @@
      height: 413px;
      width: 750px;
      padding-right: 10px;
-
-
  }
 
  #tri-pulldown {
@@ -270,7 +258,6 @@
      height: 413px;
      width: 750px;
      padding-right: 10px;
-
  }
 
  #skullcrusher {
@@ -292,7 +279,6 @@
      font-size: 30px;
  }
 
-
  .core-exercises h3 {
      font-family: 'Source Serif 4', serif;
  }
@@ -307,8 +293,6 @@
      height: 413px;
      width: 750px;
      padding-right: 10px;
-
-
  }
 
  #crunches {
@@ -339,7 +323,6 @@
      font-size: 30px;
  }
 
-
  .back-exercises h3 {
      font-family: 'Source Serif 4', serif;
  }
@@ -354,8 +337,6 @@
      height: 413px;
      width: 750px;
      padding-right: 10px;
-
-
  }
 
  #rows {
@@ -364,7 +345,6 @@
      height: 413px;
      width: 750px;
      padding-right: 10px;
-
  }
 
  #lat-pulldown {
@@ -401,8 +381,6 @@
      height: 413px;
      width: 750px;
      padding-right: 10px;
-
-
  }
 
  #lunge {
@@ -411,8 +389,7 @@
      height: 413px;
      width: 750px;
      padding-right: 10px;
-
- }
+    }
 
  #calf-raise {
      font-size: 15px;
@@ -447,7 +424,6 @@
 
  /* for screen sizes 2400px wide and down */
 
-
  @media screen and (max-width: 2400px) {
 
      #description {
@@ -479,12 +455,12 @@
 
      #arms {
          width: 475px;
-        padding-right: 5px;
+         padding-right: 5px;
      }
 
      #core {
          width: 475px;
-        padding-right: 5px;
+         padding-right: 5px;
      }
 
      #back {
@@ -523,40 +499,39 @@
      }
 
      #link {
-        margin-left: 5px;
+         margin-left: 5px;
      }
-    }
+ }
 
-/* for screen sizes 1100px wide and down */
-    
-    
-@media screen and (max-width: 1110px) {
-    #left {
-        height: 600px;
-    }
-
-    #newsletter {
-        margin-left: 25px;
-        margin-top: 275px;
-    }
-}
-
-/* for screen sizes 700px wide and down */
+ /* for screen sizes 1100px wide and down */
 
 
-@media screen and (max-width: 700px) {
+ @media screen and (max-width: 1110px) {
+     #left {
+         height: 600px;
+     }
 
-    #left {
-        height: 700px;
-    }
+     #newsletter {
+         margin-left: 25px;
+         margin-top: 275px;
+     }
+ }
 
-    #description {
-        width: 300px;
-        font-size: 15px;
-    }
+ /* for screen sizes 700px wide and down */
 
-    #newsletter { 
-        margin-top: 350px;
-    }
-}
-  
+
+ @media screen and (max-width: 700px) {
+
+     #left {
+         height: 700px;
+     }
+
+     #description {
+         width: 300px;
+         font-size: 15px;
+     }
+
+     #newsletter {
+         margin-top: 350px;
+     }
+ }
