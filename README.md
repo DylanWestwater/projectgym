@@ -72,8 +72,11 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ## Credits
 
+### Content
+-I used Code Institutes form dump URL for my sign up form.
 ### Media
-- All media is from Shutterstock 
+- All media is from Shutterstock.
+
 
 
 
