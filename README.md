@@ -1,39 +1,48 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Project Gym
 
-Welcome,
+The Project Gym website was created for people who would like to start going to the gym but are unsure of where to start, offering them easy to do exercises with video and text description. The users can sign up to a newsletter to recieve exclusive updates of new exercises. There are 3 exercises per muscle area and all have their own respective pages and are clearly labelled. Links to social media pages are also included to promote a social environtment and to share personal achivements.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Features
 
-## Codeanywhere Reminders
+### Navigation 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- The tite of the page in the header acts as a link to the homepage.
+- Each muscle area has a title that acts as a link to the respective page.
+- -The icons at the bottom of the page are links to each of the respective social media websites, all pages open externally.
 
-`python3 -m http.server`
+### Header
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- Hosts the title of the page.
+- Featured on all pages.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Our Mission section
 
-`http_server`
+- Offers a description of what the page is about and what the user can expect from us.
+- Has a section dedicated to signing up for a newsletter to recieve exclusive exercises.
+- Collects the users first and last name and email address so they can be sent exercises over email.
+- Featured on all pages.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Exercises area
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- Seperated into 6 different areas for simplicity.
+- Titles provide links to pages with corresponding exercises for the selected muscle area.
+- Pictures next to each title show the general area that can be expected to be hit from the exercises.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Exercise pages
 
-To log into the Heroku toolbelt CLI:
+- Has 3 exercises that correspont to the tite clicked.
+- Has video and text descriptions showing exactly what needs to be done to complete the exercises.
+- Videos are optional and do not autoplay.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Footer
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Has colour coded icons of social media platforms to share and view results.
+- The same colour as the header to give a bordered effect.
+- Featured on all pages.
 
----
+## Testing
 
-Happy coding!
+- I checked that my page works on Chrome, Safari and Microsoft Edge.
+
+
